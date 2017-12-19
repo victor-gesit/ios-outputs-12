@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D171B411FD59D4D00694490 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D171B401FD59D4D00694490 /* CustomTabBarController.swift */; };
 		0DA6D8D91FD145C700A4B2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D8D81FD145C700A4B2BB /* AppDelegate.swift */; };
-		0DA6D8DB1FD145C700A4B2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D8DA1FD145C700A4B2BB /* ViewController.swift */; };
-		0DA6D8DE1FD145C700A4B2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA6D8DC1FD145C700A4B2BB /* Main.storyboard */; };
+		0DA6D8DB1FD145C700A4B2BB /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D8DA1FD145C700A4B2BB /* FriendsController.swift */; };
 		0DA6D8E11FD145C700A4B2BB /* Output12.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D8DF1FD145C700A4B2BB /* Output12.xcdatamodeld */; };
 		0DA6D8E31FD145C700A4B2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA6D8E21FD145C700A4B2BB /* Assets.xcassets */; };
 		0DA6D8E61FD145C700A4B2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA6D8E41FD145C700A4B2BB /* LaunchScreen.storyboard */; };
 		0DA6D8F11FD145C700A4B2BB /* Output12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D8F01FD145C700A4B2BB /* Output12Tests.swift */; };
+		0DA6D9081FD3F01E00A4B2BB /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D9071FD3F01E00A4B2BB /* FriendsControllerHelper.swift */; };
+		0DA6D9121FD4443A00A4B2BB /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6D9111FD4443A00A4B2BB /* ChatLogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D171B401FD59D4D00694490 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		0DA6D8D51FD145C700A4B2BB /* Output12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Output12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA6D8D81FD145C700A4B2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DA6D8DA1FD145C700A4B2BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DA6D8DD1FD145C700A4B2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DA6D8DA1FD145C700A4B2BB /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		0DA6D8E01FD145C700A4B2BB /* Output12.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Output12.xcdatamodel; sourceTree = "<group>"; };
 		0DA6D8E21FD145C700A4B2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA6D8E51FD145C700A4B2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		0DA6D8EC1FD145C700A4B2BB /* Output12Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Output12Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA6D8F01FD145C700A4B2BB /* Output12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output12Tests.swift; sourceTree = "<group>"; };
 		0DA6D8F21FD145C700A4B2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA6D9071FD3F01E00A4B2BB /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		0DA6D9111FD4443A00A4B2BB /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				0DA6D8D81FD145C700A4B2BB /* AppDelegate.swift */,
-				0DA6D8DA1FD145C700A4B2BB /* ViewController.swift */,
-				0DA6D8DC1FD145C700A4B2BB /* Main.storyboard */,
+				0DA6D8DA1FD145C700A4B2BB /* FriendsController.swift */,
+				0DA6D9071FD3F01E00A4B2BB /* FriendsControllerHelper.swift */,
 				0DA6D8E21FD145C700A4B2BB /* Assets.xcassets */,
 				0DA6D8E41FD145C700A4B2BB /* LaunchScreen.storyboard */,
 				0DA6D8E71FD145C700A4B2BB /* Info.plist */,
 				0DA6D8DF1FD145C700A4B2BB /* Output12.xcdatamodeld */,
+				0DA6D9111FD4443A00A4B2BB /* ChatLogController.swift */,
+				0D171B401FD59D4D00694490 /* CustomTabBarController.swift */,
 			);
 			path = Output12;
 			sourceTree = "<group>";
@@ -184,7 +190,6 @@
 			files = (
 				0DA6D8E61FD145C700A4B2BB /* LaunchScreen.storyboard in Resources */,
 				0DA6D8E31FD145C700A4B2BB /* Assets.xcassets in Resources */,
-				0DA6D8DE1FD145C700A4B2BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA6D8DB1FD145C700A4B2BB /* ViewController.swift in Sources */,
+				0DA6D9121FD4443A00A4B2BB /* ChatLogController.swift in Sources */,
+				0DA6D8DB1FD145C700A4B2BB /* FriendsController.swift in Sources */,
+				0D171B411FD59D4D00694490 /* CustomTabBarController.swift in Sources */,
 				0DA6D8D91FD145C700A4B2BB /* AppDelegate.swift in Sources */,
 				0DA6D8E11FD145C700A4B2BB /* Output12.xcdatamodeld in Sources */,
+				0DA6D9081FD3F01E00A4B2BB /* FriendsControllerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,14 +235,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DA6D8DC1FD145C700A4B2BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DA6D8DD1FD145C700A4B2BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0DA6D8E41FD145C700A4B2BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EG6Z5662E;
 				INFOPLIST_FILE = Output12/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gesit.Output12;
@@ -372,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EG6Z5662E;
 				INFOPLIST_FILE = Output12/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gesit.Output12;
