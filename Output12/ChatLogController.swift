@@ -99,7 +99,7 @@ class ChatLogController: UICollectionViewController, UICollectionViewDelegateFlo
             let keyboardFrame = keyboardNSValue?.cgRectValue
             let isKeyboardShowing = notification.name == .UIKeyboardWillShow
             bottomConstraint?.constant = isKeyboardShowing ? -keyboardFrame!.height : 0
-            UIView.animate(withDuration: 0, delay: 0, options: UIViewAnimationOptions.curveEaseOut, animations: {
+            UIView.animate(withDuration: 0, delay: 0, options: .curveEaseOut, animations: {
                 self.view.layoutIfNeeded()
             }, completion: { (completed) in
                 if isKeyboardShowing {
